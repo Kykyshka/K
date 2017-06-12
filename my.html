@@ -1,0 +1,87 @@
+
+<html>
+
+<head>
+<style>
+ 
+INPUT{background-color:	#FFFAFA;color:#000;}
+</style>
+<script>
+function gettext() {document.test.Edit1.value=document.test.Edit.value;}
+function gettext1() {document.test.Edit2.value=document.test.Edit11.value;}
+function gettext2() {document.test.Edit3.value=document.test.Edit22.value;}
+function gettext3() {document.test.Edit4.value=document.test.Edit33.value;}
+function gettext4() {document.test.Edit5.value=document.test.Edit44.value;}
+function gettext5() {document.test.Edit6.value=document.test.Edit55.value;}
+function gettext6() {document.test.Edit7.value=document.test.Edit66.value;}
+
+</script>
+
+</head>
+<body >
+
+
+<h1 align="center">My account</h1>
+
+<form name="test">
+
+ Alias: <input type="text" name="Edit1" readonly style="border:2px solid white" size="30" value="SUBSCRIBE">
+  <br>
+   <br>
+ Name: <input type="text" name="Edit2" readonly style="border:2px solid white" size="30">
+  <br>
+    <br>
+Surname:<input type="text" name="Edit3" readonly style="border:2px solid white" size="30">
+<br>
+  <br>
+Email:<input type="text" name="Edit4" readonly style="border:2px solid white" size="50">
+<br>
+  <br>
+Date of birth:<input type="text" name="Edit5" readonly style="border:2px solid white" size="50">
+<br>
+  <br>
+Place of residence:<input type="text" name="Edit6" readonly style="border:2px solid white" size="100">
+<br>
+  <br>
+About me:<input type="text" name="Edit7" readonly style="border:2px solid white" size="220">
+  <br>
+  <br>
+ <br>
+
+<h2 align="center">Setting</h2>
+
+
+Alias:<input type=search name="Edit" size="30">
+  <input type="button" value="edit" Onclick="gettext()">
+<br>
+<br>
+ Name: <input type=search name="Edit11" size="30">
+ <input type="button" value="edit" Onclick="gettext1()">
+<br>
+<br>
+Surname:<input type=search" name="Edit22" size="30">
+  <input type="button" value="edit" Onclick="gettext2()">
+<br>
+<br>
+Email:<input type=search name="Edit33" size="30">
+ <input type="button" value="edit" Onclick="gettext3()">
+<br>
+<br>
+Date of birth:<input type=search name="Edit44" size="50">
+  <input type="button" value="edit" Onclick="gettext4()">
+<br>
+<br>
+Place of residence:<input type=search name="Edit55" size="100">
+ <input type="button" value="edit" Onclick="gettext5()">
+<br>
+<br>
+About me:<input type=search name="Edit66" size="220">
+ <input type="button" value="edit" Onclick="gettext6()">
+
+<br>
+
+</form>
+
+</body>
+
+</html>
